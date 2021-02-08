@@ -10,37 +10,21 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i%7CCrimson+Text:400,400i,700,700i'
           rel='stylesheet' type='text/css'>
     <!-- Bootstrap CSS -->
-    <link rel='stylesheet' id='bootstrap-css' href='../static/css/bootstrap/css/bootstrap.css' type='text/css'
+    <link rel='stylesheet' id='bootstrap-css' href='static/css/bootstrap/css/bootstrap.css' type='text/css'
           media='all'/>
     <!-- Font Awesome Icons CSS -->
-    <link rel='stylesheet' id='font-awesome' href='../static/css/fontawesome/css/all.min.css' type='text/css'
+    <link rel='stylesheet' id='font-awesome' href='static/css/fontawesome/css/all.min.css' type='text/css'
           media='all'/>
     <!-- Owl Carousel -->
-    <link rel='stylesheet' id='owl-carousel' href='../static/js/owl-carousel/owl.carousel.css' type='text/css'
+    <link rel='stylesheet' id='owl-carousel' href='static/js/owl-carousel/owl.carousel.css' type='text/css'
           media='all'/>
     <!-- Main CSS File -->
-    <link rel='stylesheet' id='lawyers-style-css' href='../static/style.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='lawyers-style-css' href='static/style.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='style-css' href='style1.css' type='text/css' media='all'/>
     <!-- favicons -->
     <link rel="icon" href="../static/images/icons/favicon-32x32.png" sizes="32x32"/>
-    <link rel="icon" href="../static/images/icons/favicon-192x192.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="../static/images/icons/favicon-180x180.png"/>
-<!--    <script type="text/javascript" src="../static/js/calendar.js"></script>-->
-    <!-- JS -->
-    <script src='../static/js/jquery.js'></script>
-    <script src='../static/js/jquery-migrate.min.js'></script>
-    <script src='../static/css/bootstrap/js/popper.js'></script>
-    <script src='../static/css/bootstrap/js/bootstrap.js'></script>
-    <script src='../static/js/easing.js'></script>
-    <script src='../static/js/fitvids.js'></script>
-    <script src='../static/js/owl-carousel/owl.carousel.js'></script>
-    <script src='../static/js/isotope.js'></script>
-    <script src='../static/js/jquery.magnific-popup.min.js'></script>
-    <!-- MAIN JS -->
-    <script src='../static/js/init.js'></script>
-    <!-- CONTAT FORM JS -->
-    <script src='../static/js/jquery.form.min.js'></script>
-    <script src='../static/js/contactform.js'></script>
-    <script type="text/javascript" src="../static/js/calendarScript.js"></script>
+    <link rel="icon" href="static/images/icons/favicon-192x192.png" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="static/images/icons/favicon-180x180.png"/>
 </head>
 <body>
 <div class="menu-mask"></div>
@@ -77,8 +61,8 @@
                     <li class="menu-item"><a href="logIn.html">Transmettre un document</a></li>
                     <li class="menu-item"><a href="logIn.html">Consulter son dossier</a></li>
                     <li class="menu-item"><a href="logIn.html">Consulter son compte</a></li>
-                    <li class="menu-item"><a href="logIn.html">se connecter</a></li>
-                    <li class="menu-item  current-menu-item"><a href="register.html">s'enregistrer</a></li>
+                    <li class="menu-item   current-menu-item"><a href="logIn.html">se connecter</a></li>
+                    <li class="menu-item"><a href="register.html">s'enregistrer</a></li>
                     <li class="menu-item"><a href="logOut.html">Se déconnecter</a></li>
                 </ul>
             </li>
@@ -147,8 +131,8 @@
                         <li class="menu-item"><a href="logIn.html">Transmettre un document</a></li>
                         <li class="menu-item"><a href="logIn.html">Consulter son dossier</a></li>
                         <li class="menu-item"><a href="logIn.html">Consulter son compte</a></li>
-                        <li class="menu-item"><a href="logIn.html">Se connecter</a></li>
-                        <li class="menu-item  current-menu-item"><a href="register.html">S'enregistrer</a></li>
+                        <li class="menu-item   current-menu-item"><a href="logIn.html">Se connecter</a></li>
+                        <li class="menu-item"><a href="register.html">S'enregistrer</a></li>
                         <li class="menu-item"><a href="logOut.html">Se déconnecter</a></li>
                     </ul>
                 </li>
@@ -159,31 +143,63 @@
 <!-- /HEADER -->
 
 <!-- TOP IMAGE -->
-<div class="page-head " style="background-image:url('static/images/top-bkgs/about.jpg');">
-    <div class="inner-desc">
+<div class="row">
+<div class="menu-account col-md-3" >
+    <h5 class="white margin-b16" style="margin: 40px 0px 30px 0px">Espace Client</h5>
+    <ul class="menu-account-list" style="margin-bottom:50px">
+        <li><a href="#">Prendre un rendez-vous</a></li>
+        <li><a href="#">Consulter ses rendez-vous</a></li>
+        <li><a href="#">Accéder au dossier</a></li>
+        <li><a href="#">Transmettre un document</a></li>
+        <li><a href="#">Consulter ses factures</a></li>
+        <li><a href="#">Envoyer un message</a></li>
+        <li><a href="#">Information du compte</a></li>
+    </ul>
+</div>
+    <section class="section-holder col-md-9" style="margin-top: 30px">
         <div class="container">
-            <h1 class="page-title">Agenda</h1>
-            <span class="post-subtitle page-subtitle">Consulter le planning</span>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pricing-col" style="padding-top: 15px">
+                        <h1 class="font_4" style="font-size:30px;margin-bottom: 30px; border-bottom: solid 1px #dedbdb;line-height:3em"><span class="color_19" >Prochain Rendez-Vous</span></h1>
+
+                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em">Date: <span class="lawyer-position" style="font-size: 18px">Lundi 13 Mai 2021</span></h6>
+                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em">Heure: <span class="lawyer-position" style="font-size: 18px">De 15h à 16h</span></h6>
+                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em">Avocat: <span class="lawyer-position" style="font-size: 18px">Mylène Fernandez</span></h6>
+                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em">Motif: <span class="lawyer-position" style="font-size: 18px">Succession</span></h6>
+                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em;border-bottom: solid 1px #dedbdb;padding-bottom: 20px">Type: <span class="lawyer-position" style="font-size: 18px">Visio-conférence</span></h6>
+
+
+                        <h6 class="font_6" style="line-height:1.8em;font-size:16px;margin-top: 30px"><span class="color_19"><span
+                                style="letter-spacing:0.05em">Visio-conférence:</span></span></h6>
+
+                        <div class="view-more"><a href="#">Lien de la Réunion</a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="pricing-col" style="padding-top: 15px">
+                        <h1 class="font_4" style="font-size:30px;margin-bottom: 30px; border-bottom: solid 1px #dedbdb;line-height:3em"><span class="color_19" >Prendre un rendez-vous</span></h1>
+                        <h6 class="font_6" style="line-height:1.8em;font-size:16px;margin-top: 30px"><span class="color_19"><span style="letter-spacing:0.05em">Accès:</span></span></h6>
+
+                        <div class="view-more"><a href="#">Nouveau Rendez-vous</a></div>
+                    </div>
+                    <div class="pricing-col"style="margin-bottom: 30px">
+                        <h4>Nouveaux messages Reçu</h4>
+                        <div class="view-more"><a href="#">Accèder aux messages</a></div>
+                    </div>
+                    <!-- /pricing-col -->
+                </div>
+            </div>
+            <!-- /row -->
         </div>
-    </div>
+        <!-- /container -->
+    </section>
 </div>
-<!-- /TOP IMAGE-->
-<!--PAGE CONTENT-->
-
-<div class="calendar calendar-first" id="calendar_first">
-    <div class="calendar_header">
-        <button class="switch-month switch-left"> <i class="fa fa-chevron-left"></i></button>
-        <h2></h2>
-        <button class="switch-month switch-right"> <i class="fa fa-chevron-right"></i></button>
-    </div>
-    <div class="calendar_weekdays"></div>
-    <div class="calendar_content"></div>
-</div>
-
-</div>
-<!-- /PAGE CONTENT-->
+<!-- /TOP IMAGE -->
+<!-- /PAGE CONTENT -->
 <!-- FOOTER -->
-<footer id="footer-var2">
+<footer id="footer-var2" style="margin-top:0px">
     <div id="footer-content">
         <div class="container">
             <div class="row">
@@ -232,7 +248,22 @@
         </div>
     </div>
 </footer>
- /FOOTER
+<!-- /FOOTER -->
 <div class="scrollup"><a class="scrolltop" href="#"> <i class="fa fa-chevron-up"></i> </a></div>
+<!-- JS -->
+<script src='static/js/jquery.js'></script>
+<script src='static/js/jquery-migrate.min.js'></script>
+<script src='static/css/bootstrap/js/popper.js'></script>
+<script src='static/css/bootstrap/js/bootstrap.js'></script>
+<script src='static/js/easing.js'></script>
+<script src='static/js/fitvids.js'></script>
+<script src='static/js/owl-carousel/owl.carousel.js'></script>
+<script src='static/js/isotope.js'></script>
+<script src='static/js/jquery.magnific-popup.min.js'></script>
+<!-- MAIN JS -->
+<script src='static/js/init.js'></script>
+<!-- CONTAT FORM JS -->
+<script src='static/js/jquery.form.min.js'></script>
+<script src='static/js/contactform.js'></script>
 </body>
 </html>
