@@ -58,10 +58,10 @@ td {
     padding: 0;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+/*table {*/
+/*    border-collapse: collapse;*/
+/*    border-spacing: 0;*/
+/*}*/
 
 fieldset,
 img {
@@ -475,25 +475,25 @@ blockquote cite {
 
 /* tables */
 
-table {
-    border: 1px solid #e5e5e5;
-    font-size: 18px;
-    width: 100%;
-    text-align: center;
-}
+/*table {*/
+/*    border: 1px solid #e5e5e5;*/
+/*    font-size: 18px;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
 
-table caption {
-    margin-bottom: 24px;
-    text-align: center;
-}
+/*table caption {*/
+/*    margin-bottom: 24px;*/
+/*    text-align: center;*/
+/*}*/
 
-table th,
-table td {
-    border-bottom: 1px solid #e5e5e5;
-    border-right: 1px solid #e5e5e5;
-    padding: 16px 0;
-    text-align: center;
-}
+/*table th,*/
+/*table td {*/
+/*    border-bottom: 1px solid #e5e5e5;*/
+/*    border-right: 1px solid #e5e5e5;*/
+/*    padding: 16px 0;*/
+/*    text-align: center;*/
+/*}*/
 
 a,
 .btn-white,
@@ -1749,6 +1749,12 @@ a.btn-white:hover {
     border: 5px solid #ff6666;
 }
 
+.folder-item {
+    padding: 24px;
+    margin-bottom: 32px;
+    border: 4px solid #ff6666;
+}
+
 .practice-items-holder a:hover {
     text-decoration: none;
 }
@@ -1759,6 +1765,10 @@ a.btn-white:hover {
     font-size: 72px;
 }
 
+.folder-icon{
+    text-align: center;
+    font-size: 50px;
+}
 .practice-title,
 .circle-title {
     font-size: 28px;
@@ -1770,6 +1780,9 @@ a.btn-white:hover {
 
 .practice-item-4cols .practice-title {
     font-size: 24px;
+}
+.practice-item-6cols .practice-title {
+    font-size: 16px;
 }
 
 .practice-item:hover .practice-icon,

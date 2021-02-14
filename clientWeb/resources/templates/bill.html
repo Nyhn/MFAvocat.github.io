@@ -10,21 +10,22 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i%7CCrimson+Text:400,400i,700,700i'
           rel='stylesheet' type='text/css'>
     <!-- Bootstrap CSS -->
-    <link rel='stylesheet' id='bootstrap-css' href='static/css/bootstrap/css/bootstrap.css' type='text/css'
+    <link rel='stylesheet' id='bootstrap-css' href='../static/css/bootstrap/css/bootstrap.css' type='text/css'
           media='all'/>
     <!-- Font Awesome Icons CSS -->
-    <link rel='stylesheet' id='font-awesome' href='static/css/fontawesome/css/all.min.css' type='text/css'
+    <link rel='stylesheet' id='font-awesome' href='../static/css/fontawesome/css/all.min.css' type='text/css'
           media='all'/>
     <!-- Owl Carousel -->
-    <link rel='stylesheet' id='owl-carousel' href='static/js/owl-carousel/owl.carousel.css' type='text/css'
+    <link rel='stylesheet' id='owl-carousel' href='../static/js/owl-carousel/owl.carousel.css' type='text/css'
           media='all'/>
     <!-- Main CSS File -->
-    <link rel='stylesheet' id='lawyers-style-css' href='static/style.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='lawyers-style-css' href='../static/style.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='style-css' href='style1.css' type='text/css' media='all'/>
     <!-- favicons -->
     <link rel="icon" href="../static/images/icons/favicon-32x32.png" sizes="32x32"/>
-    <link rel="icon" href="static/images/icons/favicon-192x192.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="static/images/icons/favicon-180x180.png"/>
+    <link rel="icon" href="../static/images/icons/favicon-192x192.png" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="../static/images/icons/favicon-180x180.png"/>
+    <script src="https://kit.fontawesome.com/7a377b245e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="menu-mask"></div>
@@ -57,11 +58,11 @@
             <li class="menu-item menu-item-has-children  current-menu-item">
                 <a href="account.html">Espace client</a>
                 <ul class="sub-menu">
-                    <li class="menu-item"><a href="logIn.html">Prendre rendez-vous</a></li>
-                    <li class="menu-item"><a href="logIn.html">Transmettre un document</a></li>
-                    <li class="menu-item"><a href="logIn.html">Consulter son dossier</a></li>
-                    <li class="menu-item"><a href="logIn.html">Consulter son compte</a></li>
-                    <li class="menu-item   current-menu-item"><a href="logIn.html">se connecter</a></li>
+                    <li class="menu-item"><a href="rdv.html">Prendre rendez-vous</a></li>
+                    <li class="menu-item"><a href="transmit.html">Transmettre un document</a></li>
+                    <li class="menu-item"><a href="folder.html">Consulter son dossier</a></li>
+                    <li class="menu-item"><a href="accountInformation.html">Consulter son compte</a></li>
+                    <li class="menu-item"><a href="logIn.html">se connecter</a></li>
                     <li class="menu-item"><a href="register.html">s'enregistrer</a></li>
                     <li class="menu-item"><a href="logOut.html">Se déconnecter</a></li>
                 </ul>
@@ -127,11 +128,11 @@
                 <li class="menu-item menu-item-has-children  current-menu-item">
                     <a href="account.html">Espace client</a>
                     <ul class="sub-menu">
-                        <li class="menu-item"><a href="logIn.html">Prendre rendez-vous</a></li>
-                        <li class="menu-item"><a href="logIn.html">Transmettre un document</a></li>
-                        <li class="menu-item"><a href="logIn.html">Consulter son dossier</a></li>
-                        <li class="menu-item"><a href="logIn.html">Consulter son compte</a></li>
-                        <li class="menu-item   current-menu-item"><a href="logIn.html">Se connecter</a></li>
+                        <li class="menu-item"><a href="rdv.html">Prendre rendez-vous</a></li>
+                        <li class="menu-item"><a href="transmit.html">Transmettre un document</a></li>
+                        <li class="menu-item"><a href="folder.html">Consulter son dossier</a></li>
+                        <li class="menu-item"><a href="accountInformation.html">Consulter son compte</a></li>
+                        <li class="menu-item"><a href="logIn.html">Se connecter</a></li>
                         <li class="menu-item"><a href="register.html">S'enregistrer</a></li>
                         <li class="menu-item"><a href="logOut.html">Se déconnecter</a></li>
                     </ul>
@@ -143,41 +144,93 @@
 <!-- /HEADER -->
 
 <!-- TOP IMAGE -->
-<div class="page-head " style="background-image:url('static/images/top-bkgs/about.jpg');">
+<div class="page-head " style="background-image:url('static/images/top-bkgs/about.jpg');margin-bottom: 0px">
     <div class="inner-desc">
         <div class="container">
-            <h1 class="page-title">Connexion</h1>
-            <span class="post-subtitle page-subtitle">Accéder à votre espace personnel</span>
+            <h1 class="page-title">Facture</h1>
+            <span class="post-subtitle page-subtitle">Descriptif de la facture</span>
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="menu-account col-md-3">
+        <h5 class="white margin-b16" style="margin: 40px 0px 30px 0px">Espace Client</h5>
+        <ul class="menu-account-list" style="margin-bottom:50px">
+            <li><a href="rdv.html">Prendre un rendez-vous</a></li>
+            <li><a href="appointments.html">Consulter ses rendez-vous</a></li>
+            <li><a href="folder.html">Accéder au dossier</a></li>
+            <li><a href="transmit.html">Transmettre un document</a></li>
+            <li class="current-menu-item"><a href="bills.html">Consulter ses factures</a></li>
+            <li><a href="message.html">Envoyer un message</a></li>
+            <li><a href="accountInformation.html">Information du compte</a></li>
+        </ul>
+    </div>
+    <section class="section-holder col-md-8 offset-md-1" style="margin-top: 30px">
+        <div class="testimonial-wrapper  mb-3" style="max-width: 650px; padding: 30px">
+            <div class="container">
+                <fieldset>
+                    <legend class="lawyer-position push border-bottom text-right">Période</legend>
+                    <div class="row form-group">
+                        <label for="date" class="col-sm-3 col-form-label">Date:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="date">06/02/2021
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="hour" class="col-sm-3 col-form-label">Heure:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="hour">11h00
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="lawyer-position push border-bottom text-right">Avocate</legend>
+                    <div class="row form-group">
+                        <label for="name" class="col-sm-3 col-form-label">Nom:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="name">Mylène Fernandez
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="lawyer-position push border-bottom text-right">Motif</legend>
+                    <div class="row form-group">
+                        <label for="reason" class="col-sm-3 col-form-label">Service:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="reason">Rendez-vous en Visio
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="description" class="col-sm-3 col-form-label">Description:</label>
+                        <div class="col-sm-9 lawyer-position" style="font-size: 16px;margin-top: auto;color: #273546;text-transform:none" id="description">
+                            Discusion autour du divorce : Quelle stratégie mettre en place ! Quel recourts, etc. Définition d'un devis.
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="lawyer-position push border-bottom text-right">Facture:</legend>
+                    <div class="row form-group">
+                        <label for="link" class="col-sm-3 col-form-label">Lien:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="link"><a href="#" >accès à la facture papier</a>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class=" aligncenter">
+                    <legend class="lawyer-position push border-bottom text-right">Action:</legend>
+                    <a href="#" class="simple-icon col-4 " style="margin: auto">
+                        <i class="fa fa-credit-card-alt"  style="font-size: 20px"> Payer</i></a>
+                </fieldset>
+            </div>
+            <!-- /row -->
+
+        </div>
+    </section>
+</div>
 <!-- /TOP IMAGE -->
-<div class="aligncenter testimonial-wrapper  mb-3" style="max-width: 650px; padding: 30px">
-    <form>
-        <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-3 col-form-label">Identifiant</label>
-            <div class="col-sm-9">
-                <input type="text" class="form-control" id="inputEmail3" placeholder="Identifiant">
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="inputPassword3" class="col-sm-3 col-form-label">Mot de passe</label>
-            <div class="col-sm-9">
-                <input type="password" class="form-control " id="inputPassword3" placeholder="Mot de passe">
-            </div>
-        </div>
-        <div class="form-group row">
-                <input style="margin: auto" type="submit" value="Connexion" id="submit"/>
-        </div>
-        <p class="info-act" style="line-height:1.8em;font-size:14px;margin: auto"><a class="a-forbidden" style="color: #adb6bf" href="#" >Mot de passe oublié ?</a></p>
-
-    </form>
-</div>
-
-</div>
 <!-- /PAGE CONTENT -->
 <!-- FOOTER -->
-<footer id="footer-var2">
+<footer id="footer-var2" style="margin-top:0px">
     <div id="footer-content">
         <div class="container">
             <div class="row">
@@ -186,7 +239,9 @@
                         <h5 class="widgettitle">À propos</h5>
                         <div class="textwidget">
                             <div class="textwidget">
-                                <p class="text-justify">Maître Mylène FERNANDEZ met ses compétences à votre service en vous garantissant expertise juridique, rigueur et confidentialité dans le traitement de vos dossiers.</p>
+                                <p class="text-justify">Maître Mylène FERNANDEZ met ses compétences à votre service en
+                                    vous garantissant expertise juridique, rigueur et confidentialité dans le traitement
+                                    de vos dossiers.</p>
                             </div>
                         </div>
                     </div>
@@ -208,7 +263,7 @@
                         <h5 class="widgettitle">Liens utiles</h5>
                         <div class="textwidget custom-html-widget">
                             <ul>
-                                <li> <a href="index.html">Accueil</a></li>
+                                <li><a href="index.html">Accueil</a></li>
                                 <li><a href="practice.html">Domaine d'activité</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                                 <li><a href="#">Espace client</a></li>
@@ -229,19 +284,19 @@
 <!-- /FOOTER -->
 <div class="scrollup"><a class="scrolltop" href="#"> <i class="fa fa-chevron-up"></i> </a></div>
 <!-- JS -->
-<script src='static/js/jquery.js'></script>
-<script src='static/js/jquery-migrate.min.js'></script>
-<script src='static/css/bootstrap/js/popper.js'></script>
-<script src='static/css/bootstrap/js/bootstrap.js'></script>
-<script src='static/js/easing.js'></script>
-<script src='static/js/fitvids.js'></script>
-<script src='static/js/owl-carousel/owl.carousel.js'></script>
-<script src='static/js/isotope.js'></script>
-<script src='static/js/jquery.magnific-popup.min.js'></script>
+<script src='../static/js/jquery.js'></script>
+<script src='../static/js/jquery-migrate.min.js'></script>
+<script src='../static/css/bootstrap/js/popper.js'></script>
+<script src='../static/css/bootstrap/js/bootstrap.js'></script>
+<script src='../static/js/easing.js'></script>
+<script src='../static/js/fitvids.js'></script>
+<script src='../static/js/owl-carousel/owl.carousel.js'></script>
+<script src='../static/js/isotope.js'></script>
+<script src='../static/js/jquery.magnific-popup.min.js'></script>
 <!-- MAIN JS -->
-<script src='static/js/init.js'></script>
+<script src='../static/js/init.js'></script>
 <!-- CONTAT FORM JS -->
-<script src='static/js/jquery.form.min.js'></script>
-<script src='static/js/contactform.js'></script>
+<script src='../static/js/jquery.form.min.js'></script>
+<script src='../static/js/contactform.js'></script>
 </body>
 </html>

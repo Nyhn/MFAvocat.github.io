@@ -10,21 +10,22 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i%7CCrimson+Text:400,400i,700,700i'
           rel='stylesheet' type='text/css'>
     <!-- Bootstrap CSS -->
-    <link rel='stylesheet' id='bootstrap-css' href='static/css/bootstrap/css/bootstrap.css' type='text/css'
+    <link rel='stylesheet' id='bootstrap-css' href='../static/css/bootstrap/css/bootstrap.css' type='text/css'
           media='all'/>
     <!-- Font Awesome Icons CSS -->
-    <link rel='stylesheet' id='font-awesome' href='static/css/fontawesome/css/all.min.css' type='text/css'
+    <link rel='stylesheet' id='font-awesome' href='../static/css/fontawesome/css/all.min.css' type='text/css'
           media='all'/>
     <!-- Owl Carousel -->
-    <link rel='stylesheet' id='owl-carousel' href='static/js/owl-carousel/owl.carousel.css' type='text/css'
+    <link rel='stylesheet' id='owl-carousel' href='../static/js/owl-carousel/owl.carousel.css' type='text/css'
           media='all'/>
     <!-- Main CSS File -->
-    <link rel='stylesheet' id='lawyers-style-css' href='static/style.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='lawyers-style-css' href='../static/style.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='style-css' href='style1.css' type='text/css' media='all'/>
     <!-- favicons -->
     <link rel="icon" href="../static/images/icons/favicon-32x32.png" sizes="32x32"/>
-    <link rel="icon" href="static/images/icons/favicon-192x192.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="static/images/icons/favicon-180x180.png"/>
+    <link rel="icon" href="../static/images/icons/favicon-192x192.png" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="../static/images/icons/favicon-180x180.png"/>
+    <script src="https://kit.fontawesome.com/7a377b245e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="menu-mask"></div>
@@ -57,11 +58,11 @@
             <li class="menu-item menu-item-has-children  current-menu-item">
                 <a href="account.html">Espace client</a>
                 <ul class="sub-menu">
-                    <li class="menu-item"><a href="logIn.html">Prendre rendez-vous</a></li>
-                    <li class="menu-item"><a href="logIn.html">Transmettre un document</a></li>
-                    <li class="menu-item"><a href="logIn.html">Consulter son dossier</a></li>
-                    <li class="menu-item"><a href="logIn.html">Consulter son compte</a></li>
-                    <li class="menu-item   current-menu-item"><a href="logIn.html">se connecter</a></li>
+                    <li class="menu-item"><a href="rdv.html">Prendre rendez-vous</a></li>
+                    <li class="menu-item"><a href="transmit.html">Transmettre un document</a></li>
+                    <li class="menu-item"><a href="folder.html">Consulter son dossier</a></li>
+                    <li class="menu-item"><a href="accountInformation.html">Consulter son compte</a></li>
+                    <li class="menu-item"><a href="logIn.html">se connecter</a></li>
                     <li class="menu-item"><a href="register.html">s'enregistrer</a></li>
                     <li class="menu-item"><a href="logOut.html">Se déconnecter</a></li>
                 </ul>
@@ -127,11 +128,11 @@
                 <li class="menu-item menu-item-has-children  current-menu-item">
                     <a href="account.html">Espace client</a>
                     <ul class="sub-menu">
-                        <li class="menu-item"><a href="logIn.html">Prendre rendez-vous</a></li>
-                        <li class="menu-item"><a href="logIn.html">Transmettre un document</a></li>
-                        <li class="menu-item"><a href="logIn.html">Consulter son dossier</a></li>
-                        <li class="menu-item"><a href="logIn.html">Consulter son compte</a></li>
-                        <li class="menu-item   current-menu-item"><a href="logIn.html">Se connecter</a></li>
+                        <li class="menu-item"><a href="rdv.html">Prendre rendez-vous</a></li>
+                        <li class="menu-item"><a href="transmit.html">Transmettre un document</a></li>
+                        <li class="menu-item"><a href="folder.html">Consulter son dossier</a></li>
+                        <li class="menu-item"><a href="accountInformation.html">Consulter son compte</a></li>
+                        <li class="menu-item"><a href="logIn.html">Se connecter</a></li>
                         <li class="menu-item"><a href="register.html">S'enregistrer</a></li>
                         <li class="menu-item"><a href="logOut.html">Se déconnecter</a></li>
                     </ul>
@@ -143,57 +144,95 @@
 <!-- /HEADER -->
 
 <!-- TOP IMAGE -->
-<div class="row">
-<div class="menu-account col-md-3" >
-    <h5 class="white margin-b16" style="margin: 40px 0px 30px 0px">Espace Client</h5>
-    <ul class="menu-account-list" style="margin-bottom:50px">
-        <li><a href="#">Prendre un rendez-vous</a></li>
-        <li><a href="#">Consulter ses rendez-vous</a></li>
-        <li><a href="#">Accéder au dossier</a></li>
-        <li><a href="#">Transmettre un document</a></li>
-        <li><a href="#">Consulter ses factures</a></li>
-        <li><a href="#">Envoyer un message</a></li>
-        <li><a href="#">Information du compte</a></li>
-    </ul>
-</div>
-    <section class="section-holder col-md-9" style="margin-top: 30px">
+<div class="page-head " style="background-image:url('static/images/top-bkgs/about.jpg');margin-bottom: 0px">
+    <div class="inner-desc">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="pricing-col" style="padding-top: 15px">
-                        <h1 class="font_4" style="font-size:30px;margin-bottom: 30px; border-bottom: solid 1px #dedbdb;line-height:3em"><span class="color_19" >Prochain Rendez-Vous</span></h1>
-
-                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em">Date: <span class="lawyer-position" style="font-size: 18px">Lundi 13 Mai 2021</span></h6>
-                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em">Heure: <span class="lawyer-position" style="font-size: 18px">De 15h à 16h</span></h6>
-                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em">Avocat: <span class="lawyer-position" style="font-size: 18px">Mylène Fernandez</span></h6>
-                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em">Motif: <span class="lawyer-position" style="font-size: 18px">Succession</span></h6>
-                        <h6 style="line-height:2em;font-size:18px;letter-spacing:0.05em;border-bottom: solid 1px #dedbdb;padding-bottom: 20px">Type: <span class="lawyer-position" style="font-size: 18px">Visio-conférence</span></h6>
-
-
-                        <h6 class="font_6" style="line-height:1.8em;font-size:16px;margin-top: 30px"><span class="color_19"><span
-                                style="letter-spacing:0.05em">Visio-conférence:</span></span></h6>
-
-                        <div class="view-more"><a href="#">Lien de la Réunion</a></div>
+            <h1 class="page-title">Rendez-vous</h1>
+            <span class="post-subtitle page-subtitle">Consultation du rendez-vous !</span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="menu-account col-md-3">
+        <h5 class="white margin-b16" style="margin: 40px 0px 30px 0px">Espace Client</h5>
+        <ul class="menu-account-list" style="margin-bottom:50px">
+            <li><a href="rdv.html">Prendre un rendez-vous</a></li>
+            <li class="current-menu-item"><a href="appointments.html">Consulter ses rendez-vous</a></li>
+            <li><a href="folder.html">Accéder au dossier</a></li>
+            <li><a href="transmit.html">Transmettre un document</a></li>
+            <li><a href="bills.html">Consulter ses factures</a></li>
+            <li><a href="message.html">Envoyer un message</a></li>
+            <li><a href="accountInformation.html">Information du compte</a></li>
+        </ul>
+    </div>
+    <section class="section-holder col-md-8 offset-md-1" style="margin-top: 30px">
+        <div class="testimonial-wrapper  mb-3" style="max-width: 650px; padding: 30px">
+            <div class="container">
+                <fieldset>
+                    <legend class="lawyer-position push border-bottom text-right">Période</legend>
+                    <div class="row form-group">
+                        <label for="date" class="col-sm-3 col-form-label">Date:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="date">06/02/2021
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="pricing-col" style="padding-top: 15px">
-                        <h1 class="font_4" style="font-size:30px;margin-bottom: 30px; border-bottom: solid 1px #dedbdb;line-height:3em"><span class="color_19" >Prendre un rendez-vous</span></h1>
-                        <h6 class="font_6" style="line-height:1.8em;font-size:16px;margin-top: 30px"><span class="color_19"><span style="letter-spacing:0.05em">Accès:</span></span></h6>
-
-                        <div class="view-more"><a href="#">Nouveau Rendez-vous</a></div>
+                    <div class="row form-group">
+                        <label for="hour" class="col-sm-3 col-form-label">Heure:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="hour">11h00
+                        </div>
                     </div>
-                    <div class="pricing-col"style="margin-bottom: 30px">
-                        <h4>Nouveaux messages Reçu</h4>
-                        <div class="view-more"><a href="#">Accèder aux messages</a></div>
+                </fieldset>
+                <fieldset>
+                    <legend class="lawyer-position push border-bottom text-right">Avocate</legend>
+                    <div class="row form-group">
+                        <label for="name" class="col-sm-3 col-form-label">Nom:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="name">Mylène Fernandez
+                        </div>
                     </div>
-                    <!-- /pricing-col -->
-                </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="lawyer-position push border-bottom text-right">Motif</legend>
+                    <div class="row form-group">
+                        <label for="reason" class="col-sm-3 col-form-label">Raison:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="reason">Divorce
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="description" class="col-sm-3 col-form-label">Description:</label>
+                        <div class="col-sm-9 lawyer-position" style="font-size: 16px;margin-top: auto;color: #273546;text-transform:none" id="description">
+                            Quoniam digressurus haec tabernas digressurus lecturos similis Romae cum peregrinos similis si perstringam perstringam nusquam peregrinos et haec a quae quae seditiones ad forsitan cum oratio praeter propria perstringam haec.
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="lawyer-position push border-bottom text-right">Précision:</legend>
+                    <div class="row form-group">
+                        <label for="type" class="col-sm-3 col-form-label">Type:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="type">Visio-conférence
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="link" class="col-sm-3 col-form-label">Lien:</label>
+                        <div class="col-sm-9 lawyer-position"
+                             style="font-size: 16px;margin-top: auto;color: #273546" id="link"><a href="#" >www.conférence.fr</a>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class=" aligncenter">
+                    <legend class="lawyer-position push border-bottom text-right">Action:</legend>
+                    <a href="#" class="simple-icon col-4 " style="margin: auto">
+                        <i class="fa fa-edit fa-2s"  style="font-size: 13px">  Modifier</i></a>
+                    <a href="#" class="offset-1 simple-icon col-4">
+                        <i class="fa fa-times fa-2s" style="font-size: 13px">  Supprimer</i></a>
+                </fieldset>
             </div>
             <!-- /row -->
+
         </div>
-        <!-- /container -->
     </section>
 </div>
 <!-- /TOP IMAGE -->
@@ -208,7 +247,9 @@
                         <h5 class="widgettitle">À propos</h5>
                         <div class="textwidget">
                             <div class="textwidget">
-                                <p class="text-justify">Maître Mylène FERNANDEZ met ses compétences à votre service en vous garantissant expertise juridique, rigueur et confidentialité dans le traitement de vos dossiers.</p>
+                                <p class="text-justify">Maître Mylène FERNANDEZ met ses compétences à votre service en
+                                    vous garantissant expertise juridique, rigueur et confidentialité dans le traitement
+                                    de vos dossiers.</p>
                             </div>
                         </div>
                     </div>
@@ -230,7 +271,7 @@
                         <h5 class="widgettitle">Liens utiles</h5>
                         <div class="textwidget custom-html-widget">
                             <ul>
-                                <li> <a href="index.html">Accueil</a></li>
+                                <li><a href="index.html">Accueil</a></li>
                                 <li><a href="practice.html">Domaine d'activité</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                                 <li><a href="#">Espace client</a></li>
@@ -251,19 +292,19 @@
 <!-- /FOOTER -->
 <div class="scrollup"><a class="scrolltop" href="#"> <i class="fa fa-chevron-up"></i> </a></div>
 <!-- JS -->
-<script src='static/js/jquery.js'></script>
-<script src='static/js/jquery-migrate.min.js'></script>
-<script src='static/css/bootstrap/js/popper.js'></script>
-<script src='static/css/bootstrap/js/bootstrap.js'></script>
-<script src='static/js/easing.js'></script>
-<script src='static/js/fitvids.js'></script>
-<script src='static/js/owl-carousel/owl.carousel.js'></script>
-<script src='static/js/isotope.js'></script>
-<script src='static/js/jquery.magnific-popup.min.js'></script>
+<script src='../static/js/jquery.js'></script>
+<script src='../static/js/jquery-migrate.min.js'></script>
+<script src='../static/css/bootstrap/js/popper.js'></script>
+<script src='../static/css/bootstrap/js/bootstrap.js'></script>
+<script src='../static/js/easing.js'></script>
+<script src='../static/js/fitvids.js'></script>
+<script src='../static/js/owl-carousel/owl.carousel.js'></script>
+<script src='../static/js/isotope.js'></script>
+<script src='../static/js/jquery.magnific-popup.min.js'></script>
 <!-- MAIN JS -->
-<script src='static/js/init.js'></script>
+<script src='../static/js/init.js'></script>
 <!-- CONTAT FORM JS -->
-<script src='static/js/jquery.form.min.js'></script>
-<script src='static/js/contactform.js'></script>
+<script src='../static/js/jquery.form.min.js'></script>
+<script src='../static/js/contactform.js'></script>
 </body>
 </html>

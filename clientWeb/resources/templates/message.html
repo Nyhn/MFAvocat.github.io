@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8">
+    <title>Log In - Lawyers Attorneys Business HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noodp"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i%7CCrimson+Text:400,400i,700,700i'
+          rel='stylesheet' type='text/css'>
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' id='bootstrap-css' href='../static/css/bootstrap/css/bootstrap.css' type='text/css'
+          media='all'/>
+    <!-- Font Awesome Icons CSS -->
+    <link rel='stylesheet' id='font-awesome' href='../static/css/fontawesome/css/all.min.css' type='text/css'
+          media='all'/>
+    <!-- Owl Carousel -->
+    <link rel='stylesheet' id='owl-carousel' href='../static/js/owl-carousel/owl.carousel.css' type='text/css'
+          media='all'/>
+    <!-- Main CSS File -->
+    <link rel='stylesheet' id='lawyers-style-css' href='../static/style.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='style-css' href='style1.css' type='text/css' media='all'/>
+    <!-- favicons -->
+    <link rel="icon" href="../static/images/icons/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" href="../static/images/icons/favicon-192x192.png" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="../static/images/icons/favicon-180x180.png"/>
+    <script src="https://kit.fontawesome.com/7a377b245e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="menu-mask"></div>
+<!-- MOBILE MENU HOLDER -->
+<div class="mobile-menu-holder">
+    <div class="modal-menu-container">
+        <div class="exit-mobile"><span class="icon-bar1"></span> <span class="icon-bar2"></span></div>
+        <ul class="menu-mobile">
+            <li class="menu-item">
+                <a href="index.html">Accueil</a>
+            </li>
+            <li class="menu-item">
+                <a href="rdv.html">Rendez-vous</a>
+            </li>
+            <li class="menu-item">
+                <a href="about-me.html">L'avocate</a>
+            </li>
+            <li class="menu-item">
+                <a href="practice.html">Domaine d'activité</a>
+            </li>
+            <li class="menu-item">
+                <a href="contact.html">Contact</a>
+            </li>
+            <li class="menu-item">
+                <a href="faq.html">FAQ</a>
+            </li>
+            <li class="menu-item">
+                <a href="testimonials.html">Témoignages</a>
+            </li>
+            <li class="menu-item menu-item-has-children  current-menu-item">
+                <a href="account.html">Espace client</a>
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="rdv.html">Prendre rendez-vous</a></li>
+                    <li class="menu-item"><a href="transmit.html">Transmettre un document</a></li>
+                    <li class="menu-item"><a href="folder.html">Consulter son dossier</a></li>
+                    <li class="menu-item"><a href="accountInformation.html">Consulter son compte</a></li>
+                    <li class="menu-item"><a href="logIn.html">Se connecter</a></li>
+                    <li class="menu-item"><a href="register.html">S'enregistrer</a></li>
+                    <li class="menu-item"><a href="logOut.html">Se déconnecter</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="menu-contact">
+        <ul>
+            <li><i class="fa fa-map-marker"></i><span>53 rue Chanzy, Salon de Provence</span></li>
+            <li></li>
+            <li><i class="fa fa-mobile"></i><span>06.23.52.48.97 - 09.86.20.55.30</span></li>
+            <li></li>
+            <li><i class="fa fa-envelope"></i><span>mylenefernandez.avocat@gmail.com</span></li>
+        </ul>
+        <ul class="social-media">
+            <li><a class="social-facebook" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="social-twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="social-linkedin" href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!-- /MOBILE MENU HOLDER -->
+<!-- HEADER -->
+<header id="header-bar" class="header-1">
+    <div class="container">
+        <div class="header-wrap header-wrap1">
+            <div class="logo logo-1"><a href="index.html"><img class="img-fluid" src="../static/images/logo.png"
+                                                               alt="Lawyers"></a></div>
+            <div class="header-contact">
+                <div class="header-info"><span class="info-circle"><i class="fa fa-phone"></i></span> 06.23.52.48.97
+                </div>
+                <div class="header-info"><span class="info-circle"><i class="fa fa-envelope"></i></span>
+                    mylenefernandez.avocat@gmail.com
+                </div>
+            </div>
+            <div class="nav-button-holder">
+                <button type="button" class="nav-button"><span class="icon-bar"></span></button>
+            </div>
+        </div>
+        <div class="nav-holder nav-holder-1">
+            <ul class="menu-nav  menu-nav-1">
+                <li class="menu-item">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li class="menu-item">
+                    <a href="rdv.html">Rendez-vous</a>
+                </li>
+                <li class="menu-item">
+                    <a href="about-me.html">L'avocate</a>
+                </li>
+                <li class="menu-item">
+                    <a href="practice.html">Domaine d'activité</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="menu-item">
+                    <a href="faq.html">FAQ</a>
+                </li>
+                <li class="menu-item">
+                    <a href="testimonials.html">Témoignage</a>
+                </li>
+                <li class="menu-item menu-item-has-children  current-menu-item">
+                    <a href="account.html">Espace client</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="rdv.html">Prendre rendez-vous</a></li>
+                        <li class="menu-item"><a href="transmit.html">Transmettre un document</a></li>
+                        <li class="menu-item"><a href="folder.html">Consulter son dossier</a></li>
+                        <li class="menu-item"><a href="accountInformation.html">Consulter son compte</a></li>
+                        <li class="menu-item"><a href="logIn.html">Se connecter</a></li>
+                        <li class="menu-item"><a href="register.html">S'enregistrer</a></li>
+                        <li class="menu-item"><a href="logOut.html">Se déconnecter</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- /HEADER -->
+
+<!-- TOP IMAGE -->
+<div class="page-head " style="background-image:url('static/images/top-bkgs/about.jpg');margin-bottom: 0px">
+    <div class="inner-desc">
+        <div class="container">
+            <h1 class="page-title">Message</h1>
+            <span class="post-subtitle page-subtitle">Une question ? Un conseil ? Le service de messagerie est là pour ça !</span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="menu-account col-md-3" >
+        <h5 class="white margin-b16" style="margin: 40px 0px 30px 0px">Espace Client</h5>
+        <ul class="menu-account-list" style="margin-bottom:50px">
+            <li><a href="rdv.html">Prendre un rendez-vous</a></li>
+            <li><a href="appointments.html">Consulter ses rendez-vous</a></li>
+            <li><a href="folder.html">Accéder au dossier</a></li>
+            <li><a href="transmit.html">Transmettre un document</a></li>
+            <li><a href="bills.html">Consulter ses factures</a></li>
+            <li class="current-menu-item"><a href="message.html">Envoyer un message</a></li>
+            <li><a href="accountInformation.html">Information du compte</a></li>
+        </ul>
+    </div>
+    <section class="section-holder col-md-9" style="margin-top: 30px">
+        <div class="col-lg-12">
+            <div class="testimonial-wrapper">
+                <div class="icon-box-wrapper">
+                    <div class="icon-box-icon testimonial-client"><img
+                            src="../static/images/testimonials/client-2.jpg" alt=""></div>
+                    <div class="icon-box-content">
+                        <div class="client-name">Geoffrey Dubois</div>
+                        <p class="client-company">11/02/21  15:42</p>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <h6>Bonjour, Actuellement j'ai un problème sur l'élèment du dossier xxx. En effet, il semblerai que la xxxx de ce document implique xxxxx que je ne souhaite pas mettre en évidence. Comment régler ce problème ?</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="testimonial-wrapper">
+                <div class="icon-box-wrapper">
+                    <div class="icon-box-icon testimonial-client"><img
+                            src="../static/images/testimonials/client-2.jpg" alt=""></div>
+                    <div class="icon-box-content">
+                        <div class="client-name">Mylène Fernandez</div>
+                        <p class="client-company">11/02/21  15:57</p>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <h6>Bonjour Mr Dubois. Alors oui beaucoup d'autres clients ont un problème avec cette élèment. Selon l'article xx du code xxxxx, l'utilisateur est soumis à la restriction de xxxxx et donc il est dans l'obligation de xxxx pour effectuer la xxxxx. J'espère vous avoir aider au mieu.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="testimonial-wrapper">
+                <div class="icon-box-wrapper">
+                    <div class="icon-box-icon testimonial-client"><img
+                            src="../static/images/testimonials/client-2.jpg" alt=""></div>
+                    <div class="icon-box-content">
+                        <div class="client-name">Geoffrey Dubois</div>
+                        <p class="client-company">11/02/21  17:07</p>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <h6>D'accord, c'est vrai que c'est plus simple de cette manière, Merci beaucoup et sinon quand est-ce la date limite du retour ?</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="testimonial-wrapper">
+                <div class="icon-box-wrapper">
+                    <div class="icon-box-icon testimonial-client"><img
+                            src="../static/images/testimonials/client-2.jpg" alt=""></div>
+                    <div class="icon-box-content">
+                        <div class="client-name">Mylène Fernandez</div>
+                        <p class="client-company">11/02/21  18:24</p>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <h6>Dans 10 jours, à la réception du verdict.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="testimonial-wrapper">
+                <form>
+                    <div class="row simple-icon">
+                        <i class="fa fa-commenting-o" aria-hidden="true" style="font-size: 18px;margin-left: 16px"> <label for="message"> Nouveau message:</label></i>
+                    </div>
+                    <textarea class="form-control" rows="4" id="message" ></textarea>
+                    <button type="submit" class="btn btn-primary my-1">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- /TOP IMAGE -->
+<!-- /PAGE CONTENT -->
+<!-- FOOTER -->
+<footer id="footer-var2" style="margin-top:0px">
+    <div id="footer-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="foo-block">
+                        <h5 class="widgettitle">À propos</h5>
+                        <div class="textwidget">
+                            <div class="textwidget">
+                                <p class="text-justify">Maître Mylène FERNANDEZ met ses compétences à votre service en vous garantissant expertise juridique, rigueur et confidentialité dans le traitement de vos dossiers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="foo-block">
+                        <h5 class="widgettitle">Contact</h5>
+                        <div class="textwidget">
+                            <div class="textwidget">
+                                <p>53 rue Chanzy,<br> 13300 Salon de Provence</p>
+                                <p>06.23.52.48.97<br> 09.86.20.55.30</p>
+                                <p>mylenefernandez.avocat@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="foo-block">
+                        <h5 class="widgettitle">Liens utiles</h5>
+                        <div class="textwidget custom-html-widget">
+                            <ul>
+                                <li> <a href="index.html">Accueil</a></li>
+                                <li><a href="practice.html">Domaine d'activité</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">Espace client</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="footer-social alignc">
+                <li><a class="social-facebook" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="social-linkedin" href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <div class="foo-copyright alignc">Designed/ Created by Dubois Geoffrey</div>
+        </div>
+    </div>
+</footer>
+<!-- /FOOTER -->
+<div class="scrollup"><a class="scrolltop" href="#"> <i class="fa fa-chevron-up"></i> </a></div>
+<!-- JS -->
+<script src='../static/js/jquery.js'></script>
+<script src='../static/js/jquery-migrate.min.js'></script>
+<script src='../static/css/bootstrap/js/popper.js'></script>
+<script src='../static/css/bootstrap/js/bootstrap.js'></script>
+<script src='../static/js/easing.js'></script>
+<script src='../static/js/fitvids.js'></script>
+<script src='../static/js/owl-carousel/owl.carousel.js'></script>
+<script src='../static/js/isotope.js'></script>
+<script src='../static/js/jquery.magnific-popup.min.js'></script>
+<!-- MAIN JS -->
+<script src='../static/js/init.js'></script>
+<!-- CONTAT FORM JS -->
+<script src='../static/js/jquery.form.min.js'></script>
+<script src='../static/js/contactform.js'></script>
+</body>
+</html>
