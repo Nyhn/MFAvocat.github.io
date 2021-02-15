@@ -25,7 +25,11 @@ Author https://matchthemes.com
 /*************************************
 1. MAIN STYLE
 ************************************/
+/* VARIABLE */
 
+:root{
+    --main-color: #6e98a2;
+}
 
 /* RESET STYLES */
 
@@ -375,7 +379,7 @@ ol {
 }
 
 .exp-item:hover {
-    background-color: #ff6666;
+    background-color: var(--main-color);
 }
 
 .exp-item:hover span {
@@ -441,7 +445,7 @@ blockquote cite {
     content: "\f105";
     display: inline-block;
     padding-right: 8px;
-    color: #ff6666;
+    color: var(--main-color);
     font-weight: 700;
     vertical-align: middle;
 }
@@ -638,7 +642,7 @@ a:hover,
 .lawyer-title a:hover,
 .heading-subtitle,
 .list-items li:before {
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 .page-head,
@@ -664,7 +668,7 @@ a:hover,
 .meta-categ a,
 .tags-single-page a,
 .practice-circle {
-    background-color: #ff6666;
+    background-color: var(--main-color);
 }
 
 .practice-item,
@@ -684,7 +688,7 @@ a:hover,
 .current-page:hover,
 .meta-categ a,
 .heading-subtitle {
-    border-color: #ff6666;
+    border-color: var(--main-color);
 }
 
 .widget_categories ul li a,
@@ -744,18 +748,18 @@ blockquote,
 .menu-nav li.current-menu-item .sub-menu li a:hover,
 .menu-mobile li:hover > a,
 .menu-mobile li.current-menu-item > a {
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 .menu-nav li.current-menu-item > a,
 .menu-nav > li.current-menu-ancestor > a {
-    color: #ff6666;
-    border: 1px solid #ff6666;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
 }
 
 .menu-nav > li.current-menu-ancestor .sub-menu li.current-menu-ancestor > a,
 .sub-menu li.current-menu-item > a {
-    color: #ff6666;
+    color: var(--main-color);
     border: none;
 }
 
@@ -1057,7 +1061,7 @@ p.info-act {
 
 .menu-mobile li:hover > a,
 .menu-mobile li.current-menu-item > a {
-    color: #ff6666;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -1271,7 +1275,7 @@ body.has-active-menu {
 }
 
 .social-media li a:hover {
-    color: #ff6666;
+    color:var(--main-color);
 }
 
 .social-media li:first-child {
@@ -1541,7 +1545,7 @@ a.btn-white:hover {
 
 .icon-box-icon {
     font-size: 32px;
-    color: #ff6666;
+    color: var(--main-color);
     margin-right: 16px;
 }
 
@@ -1591,7 +1595,7 @@ a.btn-white:hover {
 
 .simple-icon {
     font-size: 32px;
-    color: #ff6666;
+    color: var(--main-color);
     margin-bottom: 16px;
 }
 
@@ -1679,7 +1683,7 @@ a.btn-white:hover {
     flex-direction: row;
     text-align: left;
     align-items: center;
-    background: #ff6666;
+    background: var(--main-color);
 }
 
 .progress-text {
@@ -1708,7 +1712,7 @@ a.btn-white:hover {
 }
 
 .contact-info i {
-    color: #ff6666;
+    color: var(--main-color);
     font-size: 20px;
     margin-right: 8px;
 }
@@ -1746,13 +1750,13 @@ a.btn-white:hover {
 .practice-item {
     padding: 24px;
     margin-bottom: 32px;
-    border: 5px solid #ff6666;
+    border: 5px solid var(--main-color);
 }
 
 .folder-item {
     padding: 24px;
     margin-bottom: 32px;
-    border: 4px solid #ff6666;
+    border: 4px solid var(--main-color);
 }
 
 .practice-items-holder a:hover {
@@ -1838,7 +1842,7 @@ a.btn-white:hover {
     text-align: center;
     border-radius: 99em;
     color: #ffffff;
-    background: #ff6666;
+    background: var(--main-color);
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -1860,7 +1864,7 @@ a.btn-white:hover {
 }
 
 .practice-title-v2 a:hover {
-    color: #ff6666;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -1874,7 +1878,7 @@ a.btn-white:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #ff6666;
+    background-color: var(--main-color);
 }
 
 .view-more-holder {
@@ -1888,7 +1892,7 @@ a.btn-white:hover {
     padding: 12px 24px;
     text-align: center;
     color: #ffffff;
-    border: 3px solid #ff6666;
+    border: 3px solid var(--main-color);
 }
 
 .view-more a:hover {
@@ -1911,7 +1915,7 @@ a.btn-white:hover {
 .read-more {
     font-size: 13px;
     font-weight: 700;
-    color: #ff6666;
+    color: var(--main-color);
     letter-spacing: 0.02em;
     text-transform: uppercase;
 }
@@ -1941,7 +1945,7 @@ a.btn-white:hover {
 }
 
 .lawyer-title a:hover {
-    color: #ff6666;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -1960,7 +1964,7 @@ a.btn-white:hover {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.03em;
-    color: #ff6666;
+    color: var(--main-color);
     margin-top: 24px;
 }
 
@@ -1987,7 +1991,7 @@ a.btn-white:hover {
     line-height: 30px;
     text-align: center;
     display: block;
-    border: 2px solid #ff6666;
+    border: 2px solid var(--main-color);
 }
 
 .lawyer-social li a:hover {
@@ -2080,7 +2084,7 @@ a.btn-white:hover {
     margin-top: 32px;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid #ff6666;
+    border: 5px solid var(--main-color);
 }
 
 .circle-title {
@@ -2088,7 +2092,7 @@ a.btn-white:hover {
 }
 
 .section-about3 {
-    background: #ff6666;
+    background: var(--main-color);
 }
 
 .section-about5 {
@@ -2202,7 +2206,7 @@ a.btn-white:hover {
 }
 
 .faq-title:hover {
-    border-color: #ff6666;
+    border-color: var(--main-color);
 }
 
 .faq-list {
@@ -2223,7 +2227,7 @@ a.btn-white:hover {
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 .faq-title.active a:before {
@@ -2234,11 +2238,11 @@ a.btn-white:hover {
 .faq-title a:hover,
 .faq-title.active a {
     text-decoration: none;
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 .faq-title.active {
-    border-color: #ff6666;
+    border-color: var(--main-color);
 }
 
 .faq-section {
@@ -2560,7 +2564,7 @@ a.btn-white:hover {
 
 .portfolio-filter li a.current,
 .portfolio-filter li a:hover {
-    color: #ff6666;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -2580,7 +2584,7 @@ a.btn-white:hover {
 .case-info {
     color: #ffffff;
     padding: 20px;
-    background: #ff6666;
+    background: var(--main-color);
 }
 
 .case-info-list {
@@ -2655,7 +2659,7 @@ a.btn-white:hover {
 .menu-account {
     color: #ffffff;
     padding: 20px;
-    background: #ff6666;
+    background: var(--main-color);
 }
 
 
@@ -2774,8 +2778,8 @@ a.btn-white:hover {
 
 .meta-categ a,
 .blog-date li.meta-sticky {
-    background: #ff6666;
-    border: 2px solid #ff6666;
+    background: var(--main-color);
+    border: 2px solid var(--main-color);
     color: #ffffff;
     padding: 2px 12px;
 }
@@ -2792,7 +2796,7 @@ a.btn-white:hover {
 .meta-categ a:hover {
     text-decoration: none;
     background: #ffffff;
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 .blog-button {
@@ -2805,7 +2809,7 @@ a.btn-white:hover {
     font-weight: 700;
     padding: 12px 24px;
     text-align: center;
-    border: 3px solid #ff6666;
+    border: 3px solid var(--main-color);
 }
 
 .blog-button a:hover {
@@ -2930,7 +2934,7 @@ a.btn-white:hover {
 }
 
 .author-single-page h3 a:hover {
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 .author-content .social-media {
@@ -2991,7 +2995,7 @@ aside ul,
 .widget_meta li a:hover,
 .widget_nav_menu li a:hover {
     text-decoration: none;
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 .widget_categories ul li:before,
@@ -3004,7 +3008,7 @@ aside ul,
     content: "\f105";
     display: inline-block;
     padding-right: 8px;
-    color: #ff6666;
+    color: var(--main-color);
     font-weight: 700;
     vertical-align: middle;
 }
@@ -3023,8 +3027,8 @@ aside ul,
     padding: 4px 12px;
     display: inline-block;
     color: #ffffff;
-    border: 3px solid #ff6666;
-    background: #ff6666;
+    border: 3px solid var(--main-color);
+    background: var(--main-color);
     font-size: 13px !important;
     letter-spacing: 0.03em;
 }
@@ -3319,8 +3323,8 @@ p.contact-btn {
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.05em;
-    color: #ff6666;
-    border-bottom: 3px solid #ff6666;
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
     line-height: 1.2;
     margin-bottom: 16px;
     display: inline-block;
@@ -3375,14 +3379,14 @@ p.contact-btn {
 .price-title {
     font-size: 72px;
     font-weight: 600;
-    color: #ff6666;
+    color: var(--main-color);
     margin-bottom: 16px;
 }
 
 .price-title {
     font-size: 72px;
     font-weight: 600;
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 .price-title sup {
@@ -3494,7 +3498,7 @@ footer {
     text-align: center;
     font-weight: 700;
     background: none;
-    border: 3px solid #ff6666;
+    border: 3px solid var(--main-color);
 }
 
 #submit-evaluation {
@@ -3503,7 +3507,7 @@ footer {
 
 .post-password-form input[type="submit"] {
     width: auto;
-    color: #ff6666;
+    color: var(--main-color);
 }
 
 #submit-evaluation:hover,
@@ -3564,8 +3568,8 @@ footer {
 .output2 {
     padding: 16px;
     display: inline-block;
-    border: 1px solid #ff6666;
-    color: #ff6666;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
 }
 
 .page-numbers,
@@ -3577,7 +3581,7 @@ footer {
     text-decoration: none;
     font-weight: 700;
     display: inline-block;
-    border: 3px solid #ff6666;
+    border: 3px solid var(--main-color);
 }
 
 .page-numbers:hover,
@@ -3585,7 +3589,7 @@ footer {
 .page-numbers.current-page:hover,
 .nav-page a:hover,
 .page-links a:hover {
-    background: #ff6666;
+    background: var(--main-color);
     color: #ffffff;
 }
 
@@ -3745,7 +3749,7 @@ footer {
 .owl-theme .owl-dots .owl-dot span {
     width: 7px;
     height: 7px;
-    background: #ff6666;
+    background: var(--main-color);
     display: block;
     border-radius: 99em;
     opacity: 0.7;
@@ -4835,7 +4839,7 @@ MEDIA QUERIES
     font-family:'Muli', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #cf1313;
+    color: var(--main-color);
     float:left;
     width:70%;
     margin: 0 0 10px;
@@ -4851,7 +4855,7 @@ button.switch-month {
     transition: color .2s;
 }
 button.switch-month:hover {
-    color: #b63333;
+    color: var(--main-color);
 }
 
 /*

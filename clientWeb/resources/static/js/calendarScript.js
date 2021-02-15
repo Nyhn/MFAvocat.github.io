@@ -25,9 +25,9 @@ jQuery(document).ready(function ($) {
                         (shownDate != today.getDate() && passed_month == today.getMonth()) || passed_month != today.getMonth()) && iter_date < today) {
                     var m = '<div class="past-date">';
                 } else {
-                    var m = checkToday(iter_date) ? '<div class="today cellSelected">' : '<div class="cellSelected">';
+                    var m = checkToday(iter_date) ? '<div class="today cellSelected">' : '<div class="cellSelected"><a href="rdvDay.html">';
                 }
-                calendar.datesBody.append(m + shownDate + "</div>");
+                calendar.datesBody.append(m + shownDate + "</a></div>");
             }
         }
 
@@ -209,7 +209,6 @@ jQuery(document).ready(function ($) {
         clickedElement = bothCals.find(".calendar_content").find("div");
         var elt = $('div.cellSelected');
         elt.on('click',function (e){
-            $('footer').css("background-color","#"+Math.floor(100000 + Math.random() * 900000).toString());
             var date = new Date();
             setCookie(date);
         })
@@ -218,13 +217,11 @@ jQuery(document).ready(function ($) {
 
     var elt = $('div.cellSelected');
     elt.on('click',function (e){
-        $('footer').css("background-color","#"+Math.floor(100000 + Math.random() * 900000).toString());
         var date = new Date();
         setCookie(date);
     })
 
     function setCookie(date){
-        alert('test')
         document.cookie = "dateCalendar" + "=" +date + "; path=/";
     };
 
